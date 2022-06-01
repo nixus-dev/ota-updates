@@ -1,6 +1,6 @@
 import time, machine, network, senko, credentials
 
-GITHUB_URL = "https://github.com/nixus-dev/ota-updates/"
+GITHUB_URL = "https://github.com/nixus-dev/ota-updates/blob/main/"
 OTA = senko.Senko(url=GITHUB_URL, files=["debug.py"])
 
 WIFI_SSID = credentials.WIFI_SSID
